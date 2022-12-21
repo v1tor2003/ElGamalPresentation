@@ -54,7 +54,7 @@ if len(bin(p)) < 129:
             E1 = x
             break
 
-print("E1 (Generator):", E1)
+print("E1 (Generated):", E1)
 d = getInputInSet("Enter private key: ")
 E2 = pow(E1, d, p)
 print("Public key: (", E1, ",", E2, ",", p, ")")
